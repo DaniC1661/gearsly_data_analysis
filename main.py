@@ -49,8 +49,7 @@ def funcion_distribucion_triang(x, a, b, c):
     elif a < x <= c:
         return (x - a) ** 2 / ((b - a) * (c - a))
     elif c < x < b:
-        return 1 - (b - x) ** 2 / ((b - a) * (b - c))
-
+        return 1 - (b - x) ** 2 / ((b - a) * (b - c))º
     elif x >= b:
         return 1
 
